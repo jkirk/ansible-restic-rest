@@ -25,8 +25,7 @@ restic_rest_repos:
     listen: ':8001'
     # custom arguments
     args: '--append-only --prometheus'
-restic_rest_target: 'rest-server.target default.target'
-restic_rest_target_enable: true
+restic_rest_service_enable: true
 ```
 
 
